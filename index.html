@@ -4,30 +4,40 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>Marco Zero</title>
     </head>
     <body>
         <header>
             <h2>Seja bem-vindo!</h2>
-            <p>Essa página é destinada apresentar informações sobre o chamado Marco Zero em Recife.</p>
-            <nav>
+            <nav class="navegacao">
                 <ul>
                     <a href="pontos_turisticos.html"><li>Outros pontos turísticos</li></a>
                     <li>Contatos</li>
-                    <li>sobre nós></li>
+                    <li>sobre nós</li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <section>
-                <h4>Informações principais:</h4>
-                <p>A Praça Rio Branco, também conhecida como Marco Zero, é um espaço público localizado no bairro do Recife da cidade homônima, capital de Pernambuco. O local fica próximo ao Porto do Recife e abriga o Marco Zero da cidade do Recife. É deste marco que são feitas todas as medidas oficiais de distâncias rodoviárias locais</p>
-                <Img src="praça.jpg"></Img>
-                <h4>O que significa o Marco Zero do Recife?</h4>
-                <p>O Marco Zero no Recife Antigo é o lugar de referência onde a cidade nasceu e todas as medidas oficiais de distâncias rodoviárias usam como ponto de partida. Seu nome é, na verdade, Praça Rio Branco e fica ao lado do Porto de Pernambuco.</p>
-                <Img src="recife.jpg"></Img>
-                <p>Após ter permanecido submerso até meados do século 18, por ser a rota de entrada pelo mar, o Marco Zero de Recife foi oficialmente inaugurado em 31 de janeiro de 1938. Nos anos 1990, o entorno também passou por reformas que buscaram revitalizar a área portuária, o que implicou a retirada de parte da cobertura vegetal que ali existia. Com isso, os antigos casarões deram lugar a novos estabelecimentos e avenidas.</p>
-                <img src="praca.webp"></img>
+        <main class="main-informacoes">
+            <div class="title">
+                <h2>Informações principais:</h2>
+            </div>
+            <section class="section-informacoes">
+                <div class="card">
+                    <p>A Praça Rio Branco, também conhecida como Marco Zero, é um espaço público localizado no bairro do Recife da cidade homônima, capital de Pernambuco. O local fica próximo ao Porto do Recife e abriga o Marco Zero da cidade do Recife. É deste marco que são feitas todas as medidas oficiais de distâncias rodoviárias locais</p>
+                    <Img class="" src="praça.jpg"></Img>
+                </div>
+                <div class="card">
+                    <p>O Marco Zero no Recife Antigo é o lugar de referência onde a cidade nasceu e todas as medidas oficiais de distâncias rodoviárias usam como ponto de partida. Seu nome é, na verdade, Praça Rio Branco e fica ao lado do Porto de Pernambuco.</p>
+                    <Img src="recife.jpg"></Img>
+                </div>
+            </section> 
+
+            <section>  
+                <div>
+                    <p>Após ter permanecido submerso até meados do século 18, por ser a rota de entrada pelo mar, o Marco Zero de Recife foi oficialmente inaugurado em 31 de janeiro de 1938. Nos anos 1990, o entorno também passou por reformas que buscaram revitalizar a área portuária, o que implicou a retirada de parte da cobertura vegetal que ali existia. Com isso, os antigos casarões deram lugar a novos estabelecimentos e avenidas.</p>
+                    <img src="praca.webp"></img>
+                </div>
             
             </section>
         </main>
@@ -38,8 +48,7 @@
                 <li>Instagram</li>
                 <li>Linkedin</li>
             </ul>
-            <p>Escrito por João Paulo Barreto</p>
-            <p>Publicado em 09/06/2023</p>
+            <p class="copyright">&copy; Copyright - 2023</p>
         </footer>
     </body>
 </html>
